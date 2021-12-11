@@ -1,0 +1,31 @@
+.App {
+    background-color: #eee;  /* 높이 자동으로 설정->높이 설정해줘야 됨(height) */
+    height: 100vh;
+    width: 100vw;              
+    display: flex;              /*-> 높이 중앙정렬*/
+}
+
+.container{
+    background-color: #fff;
+    width: 50vw;                
+    max-width: 350px;       /* width -> margin: auto;*/
+    margin: auto;
+    height: 80vh;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.container > h1 {
+    color: slateblue;
+    text-align: center;
+}
+
+.container > .line {
+    margin: 16px 0px;               /*상하 좌우*/
+}
+.list-item {
+    padding: 16px;
+    margin: 8px;
+    background-color: aliceblue;
+}
